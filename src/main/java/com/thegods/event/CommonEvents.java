@@ -22,6 +22,10 @@ public final class CommonEvents {
         }
 
         Player player = event.player;
+        if (player.level().isClientSide) {
+            return;
+        }
+
         DivineData data = DivineData.get(player);
         if (data == null) {
             return;
@@ -29,8 +33,7 @@ public final class CommonEvents {
 
         data.tick(player);
 
-        if (!player.level().isClientSide && player instanceof ServerPlayer serverPlayer
-                && player.tickCount % 10 == 0) {
+        if (player instanceof ServerPlayer serverPlayer && player.tickCount % 10 == 0) {
             ModNetwork.sync(serverPlayer);
         }
     }
