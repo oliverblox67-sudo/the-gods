@@ -1,0 +1,23 @@
+{
+  "parent": "thegods:root",
+  "display": {
+    "icon": {
+      "item": "thegods:trident_of_the_deep"
+    },
+    "title": {
+      "translate": "advancements.thegods.poseidon.title"
+    },
+    "description": {
+      "translate": "advancements.thegods.poseidon.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

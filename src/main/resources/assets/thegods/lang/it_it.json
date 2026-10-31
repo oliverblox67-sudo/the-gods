@@ -1,0 +1,47 @@
+{
+  "itemGroup.thegods": "The Gods",
+
+  "item.thegods.heart_of_the_tides": "Cuore delle Maree",
+  "item.thegods.trident_of_the_deep": "Tridente degli Abissi",
+  "block.thegods.altar_of_the_tides": "Altare delle Maree",
+
+  "tooltip.thegods.heart_of_the_tides": "Un frammento dell'autorità del dio del mare.",
+  "tooltip.thegods.heart_of_the_tides.use": "Clic destro per risvegliare la marea, poi di nuovo per indossarla.",
+  "tooltip.thegods.trident_of_the_deep": "Il mare risponde a chi lo impugna.",
+
+  "key.categories.thegods": "The Gods",
+  "key.thegods.tidal_surge": "Ondata di Marea",
+  "key.thegods.trident_storm": "Tempesta di Tridente",
+  "key.thegods.abyssal_barrier": "Barriera Abissale",
+  "key.thegods.tsunami": "Tsunami",
+  "key.thegods.toggle_form": "Alterna Forma Divina",
+
+  "ability.thegods.tidal_surge": "Ondata di Marea",
+  "ability.thegods.trident_storm": "Tempesta di Tridente",
+  "ability.thegods.abyssal_barrier": "Barriera Abissale",
+  "ability.thegods.tsunami": "Tsunami",
+
+  "hud.thegods.energy": "Energia Divina %s / %s",
+  "hud.thegods.poseidon": "POSEIDONE - SOVRANO DELLE MAREE",
+  "hud.thegods.dormant": "FORMA DIVINA DORMIENTE",
+
+  "message.thegods.form_on": "La marea si solleva dentro di te.",
+  "message.thegods.form_off": "La marea si ritira.",
+  "message.thegods.not_unlocked": "Non hai ancora risvegliato un dio.",
+  "message.thegods.form_required": "Devi essere in forma divina.",
+  "message.thegods.energy_depleted": "La tua energia divina è esaurita.",
+  "message.thegods.cooldown": "%s si sta ricaricando (%ss).",
+  "message.thegods.no_energy": "Energia divina insufficiente.",
+  "message.thegods.ritual_complete": "La benedizione di Poseidone scorre in te.",
+  "message.thegods.altar_hint": "Offri il Cuore delle Maree all'altare.",
+  "message.thegods.altar_already": "L'altare tace. La tua divinità è già desta.",
+
+  "advancements.thegods.root.title": "The Gods",
+  "advancements.thegods.root.description": "Entra nel dominio del divino.",
+  "advancements.thegods.poseidon.title": "L'Ascesa delle Maree",
+  "advancements.thegods.poseidon.description": "Reclama il Cuore delle Maree e diventa sovrano del mare.",
+
+  "commands.thegods.unlocked": "Divinità sbloccata.",
+  "commands.thegods.form": "Forma divina alternata.",
+  "commands.thegods.energy": "Energia divina impostata a %s."
+}

@@ -1,0 +1,47 @@
+{
+  "itemGroup.thegods": "The Gods",
+
+  "item.thegods.heart_of_the_tides": "Heart of the Tides",
+  "item.thegods.trident_of_the_deep": "Trident of the Deep",
+  "block.thegods.altar_of_the_tides": "Altar of the Tides",
+
+  "tooltip.thegods.heart_of_the_tides": "A shard of the sea god's authority.",
+  "tooltip.thegods.heart_of_the_tides.use": "Right-click to awaken the tide, then right-click again to mantle it.",
+  "tooltip.thegods.trident_of_the_deep": "The sea answers its bearer.",
+
+  "key.categories.thegods": "The Gods",
+  "key.thegods.tidal_surge": "Tidal Surge",
+  "key.thegods.trident_storm": "Trident Storm",
+  "key.thegods.abyssal_barrier": "Abyssal Barrier",
+  "key.thegods.tsunami": "Tsunami",
+  "key.thegods.toggle_form": "Toggle Divine Form",
+
+  "ability.thegods.tidal_surge": "Tidal Surge",
+  "ability.thegods.trident_storm": "Trident Storm",
+  "ability.thegods.abyssal_barrier": "Abyssal Barrier",
+  "ability.thegods.tsunami": "Tsunami",
+
+  "hud.thegods.energy": "Divine Energy %s / %s",
+  "hud.thegods.poseidon": "POSEIDON - SOVEREIGN OF THE TIDES",
+  "hud.thegods.dormant": "DIVINE FORM DORMANT",
+
+  "message.thegods.form_on": "The tide rises within you.",
+  "message.thegods.form_off": "The tide recedes.",
+  "message.thegods.not_unlocked": "You have not awakened a god yet.",
+  "message.thegods.form_required": "You must be in divine form.",
+  "message.thegods.energy_depleted": "Your divine energy is spent.",
+  "message.thegods.cooldown": "%s is recharging (%ss).",
+  "message.thegods.no_energy": "Not enough divine energy.",
+  "message.thegods.ritual_complete": "Poseidon's blessing flows through you.",
+  "message.thegods.altar_hint": "Offer the Heart of the Tides to the altar.",
+  "message.thegods.altar_already": "The altar is silent. Your godhood is already awake.",
+
+  "advancements.thegods.root.title": "The Gods",
+  "advancements.thegods.root.description": "Step into the domain of the divine.",
+  "advancements.thegods.poseidon.title": "Rise of the Tides",
+  "advancements.thegods.poseidon.description": "Claim the Heart of the Tides and become the sea's sovereign.",
+
+  "commands.thegods.unlocked": "Godhood unlocked.",
+  "commands.thegods.form": "Divine form toggled.",
+  "commands.thegods.energy": "Divine energy set to %s."
+}

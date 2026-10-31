@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "thegods:heart_of_the_tides"
+    },
+    "title": {
+      "translate": "advancements.thegods.root.title"
+    },
+    "description": {
+      "translate": "advancements.thegods.root.description"
+    },
+    "background": "minecraft:textures/block/prismarine_bricks.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
