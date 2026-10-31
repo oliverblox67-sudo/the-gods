@@ -1,7 +1,7 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"
-issueTrackerURL="https://github.com/your-name/the-gods/issues"
+issueTrackerURL="https://github.com/oliverblox67-sudo/the-gods/issues"
 
 [[mods]]
 modId="${mod_id}"
@@ -10,7 +10,7 @@ displayName="${mod_name}"
 logoFile="logo.png"
 credits="Poseidon update - the first of the pantheon."
 authors="${mod_authors}"
-displayURL="https://github.com/your-name/the-gods"
+displayURL="https://github.com/oliverblox67-sudo/the-gods"
 description='''${mod_description}'''
 
 [[dependencies.${mod_id}]]

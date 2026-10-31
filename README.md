@@ -68,13 +68,22 @@ Il workflow `.github/workflows/release.yml` allega automaticamente i due ZIP all
 
 ## GitHub
 
-Il repository è pronto per essere inizializzato e pushato. Se `gh` non è autenticato:
+Repository: **https://github.com/oliverblox67-sudo/the-gods**
+
+Ogni tag `v*` fa partire la GitHub Action che ricostruisce la mod e allega alla release i due ZIP. In locale:
 
 ```powershell
-gh auth login
-git remote add origin https://github.com/<tuo-utente>/the-gods.git
-git push -u origin main
+.\scripts\release.ps1 -Version 0.1.0 -Message "Poseidon vertical slice"
 ```
+
+oppure manualmente:
+
+```powershell
+git push origin main
+git push origin v0.1.0
+gh release create v0.1.0 dist/*.zip --title "The Gods v0.1.0" --notes "Poseidon vertical slice"
+```
+
 
 ## Struttura
 
